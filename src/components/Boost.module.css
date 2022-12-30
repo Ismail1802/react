@@ -1,0 +1,30 @@
+.boost {
+  text-align: center;
+  background-color: hsl(257, 27%, 26%);
+  width: 100%;
+  height: 250px;
+  background-image: url(../images/bg-boost-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: center right;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.boost h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+.boost button {
+  margin: 0 auto;
+  padding: 0.8rem 2.5rem;
+  background-color: hsl(180, 66%, 49%);
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}

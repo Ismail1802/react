@@ -1,0 +1,29 @@
+.second-article {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.8rem;
+  padding-top: 7rem;
+  text-align: center;
+  background-color: hsla(0, 0%, 75%, 0.233);
+  padding-bottom: 4rem;
+}
+.stats-div {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 3.5rem;
+  margin-bottom: 2.5rem;
+}
+.stats-p {
+  font-size: 1rem;
+}
+@media (min-width: 1024px) {
+  .stats-ul {
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+    margin: 0 auto;
+  }
+  .stats {
+    margin-top: 4rem;
+  }
+}

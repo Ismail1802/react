@@ -1,0 +1,72 @@
+.footer {
+  background-color: hsl(260, 8%, 14%);
+  color: white;
+  text-align: center;
+}
+.footer h1 {
+  padding-top: 2rem;
+}
+.features h3,
+.resources h3,
+.company h3 {
+  font-size: 1rem;
+  margin: 2rem 1rem;
+}
+.features li,
+.resources li,
+.company li {
+  line-height: 1.7rem;
+  font-size: 0.9rem;
+  color: hsl(0, 0%, 75%);
+  list-style: none;
+}
+.socials {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .article-div {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+  }
+  .footer {
+    height: 250px;
+  }
+  .socials {
+    margin: 0;
+    padding: 0rem;
+    padding-top: 1.5rem;
+  }
+  .footer h1 {
+    padding: 0;
+    padding-top: 1rem;
+  }
+  .features h3,
+  .resources h3,
+  .company h3 {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  .features,
+  .resources,
+  .company {
+    padding-top: 0.8rem;
+    text-align: left;
+  }
+  .features li:hover,
+  .resources li:hover,
+  .company li:hover {
+    color: hsl(180, 66%, 49%);
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .socials img {
+    cursor: pointer;
+  }
+}

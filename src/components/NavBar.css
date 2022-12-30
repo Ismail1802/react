@@ -1,0 +1,105 @@
+.navik {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  min-height: 320px;
+  background-color: hsl(257, 27%, 26%);
+  text-align: center;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1rem;
+}
+
+nav hr {
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+  width: 85%;
+  border: 1px solid hsl(0, 0%, 75%);
+  opacity: 0.7;
+}
+nav h3 {
+  line-height: 2rem;
+  padding: 0.5rem 0;
+  font-weight: 400;
+  transition: all 0.3s ease-in-out;
+}
+.logger {
+  width: 100%;
+}
+nav button {
+  padding: 0.5rem 7rem;
+  border-radius: 1.5rem;
+  border: none;
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  outline: none;
+  transition: all 0.1s ease-in-out;
+  width: 85%;
+  cursor: pointer;
+}
+.none {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .navik {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 90%;
+    min-height: auto;
+    background-color: white;
+    text-align: center;
+    border-radius: 0.5rem;
+    color: hsl(257, 7%, 63%);
+    font-size: 0.9rem;
+    transform: translateX(0);
+  }
+  nav hr {
+    display: none;
+  }
+  .logger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+  }
+  .header_links {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    width: 300px;
+  }
+  nav button {
+    padding: 0.3rem 1.3rem;
+    margin-bottom: 0;
+    border-radius: 1.5rem;
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    outline: none;
+    transition: all 0.1s ease-in-out;
+    width: auto;
+    cursor: pointer;
+  }
+  nav h3:hover {
+    color: hsl(260, 8%, 14%);
+    cursor: pointer;
+  }
+}
