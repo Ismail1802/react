@@ -5,7 +5,6 @@ import Links from "./Links";
 
 const Shortener = ({ links, setLinks, inputValue, setError, error }) => {
   const [shortLink, setShortLink] = useState([]);
-  const [clicked, setClicked] = useState("Copy");
 
   const inputChangeHandler = () => {
     if (
@@ -62,8 +61,6 @@ const Shortener = ({ links, setLinks, inputValue, setError, error }) => {
           short={shortLink[index]}
           key={el.id}
           value={el.link}
-          clicked={clicked}
-          setClicked={setClicked}
         />
       ))}
     </article>

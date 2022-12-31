@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import classes from "./Links.module.css";
 
-const Links = ({ value, short, clicked, setClicked }) => {
+const Links = ({ value, short }) => {
+  const [clicked, setClicked] = useState("Copy");
   const copied = () => {
     setClicked("Copied!");
     navigator.clipboard.writeText(short);
